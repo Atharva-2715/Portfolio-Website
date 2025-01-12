@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="right">
+                <h3>Jack Robinson</h3>
+                <h4>
+                    <img src= "mail.svg">  
+                    jackRobinson@rediffmail.com
+                </h4>
+                <h4>
+                    <img src="telephone.svg">
+                    +91 764820841
+                </h4>
+            </div>
+
+            <div class="left">
+                <ul>
+                    <li>About Me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Recommendations</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="b1">
+            <div class="left-b1">
+                <img src="person.png">
+            </div>
+
+            <div class="right-b1">
+                <h1> Hi , I'm Jack Robinson</h1>
+                <p>I am a passionate and result-driven professional. I have a strong grip on langauges such as Python and C++. I have worked on various different applications and deployed many of them. I am always eager to learn new technologies and apply them to my projects.</p>
+            </div>
+        </div>
+
+        <div class="b2">
+            <div class="b2-header">
+                <h1>Skills</h1>
+            </div>
+            
+            <div class="b2-main">
+                <div class="html">
+                    <img src="html-img.png">
+                    <h3>HTML</h3>
+                    <p>3 Year Experience</p>
+                </div>
+
+                <div class="css">
+                    <img src="css-img.png">
+                    <h3>CSS</h3>
+                    <p>3 Year Experience</p>
+                </div>
+
+                <div class="js">
+                    <img src="js-img.png">
+                    <h3>Javascript</h3>
+                    <p>2.5 Year Experience</p>
+                </div>
+
+                <div class="python">
+                    <img src="python-img.png">
+                    <h3>Python</h3>
+                    <p>2 Year Experience</p>
+                </div>
+
+                <div class="c">
+                    <img src="c++-img.png">
+                    <h3>C++</h3>
+                    <p>1.5 Year Experience</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="b3">
+            <div class="b3-header">
+                <h1>Projects</h1>
+            </div>
+
+            <div class="b3-main">
+                <div class="project">
+                    <h3>1.Netflix Clone</h3>
+                    <p>Created a replica of netflix which is functionable, with some personal touches.</p>
+                </div>
+
+                <div class="project">
+                    <h3>2.Budget Tracker</h3>
+                    <p>Developed an App to keep track of budget so that the expenses are managed properly.</p>
+                </div>
+
+                <div class="project">
+                    <h3>3.To-Do List </h3>
+                    <p>Formed an app to keep track of all your tasks which needs to be completed.</p>
+                </div>
+
+                <div class="project">
+                    <h3>4.Shopping Trends Analysis</h3>
+                    <p>Made a data analysis project, to analyse the shopping trends and see how different conditions affect the shopping of customers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="recommendationList" class="recommendation-container">
+            <h1>Recommendations</h1>
+            <div class="recommendation-cards">
+                <div class="recommendation-card">
+                    <h3>John Doe</h3>
+                    <p>"Jack Robinson is an exceptional professional. His skills and dedication are unmatched, and he always delivers beyond expectations."</p>
+                </div>
+                <div class="recommendation-card">
+                    <h3>Jane Smith</h3>
+                    <p>"Working with Jack was a pleasure. His problem-solving skills and technical expertise are top-notch."</p>
+                </div>
+                <div class="recommendation-card">
+                    <h3>Michael Brown</h3>
+                    <p>"Jack's ability to adapt and provide innovative solutions is truly inspiring. Highly recommend him for any project."</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="submit-recommendation">
+            <h2>Submit a Recommendation</h2>
+            <form id="recommendationForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+            
+                <div class="form-group">
+                    <label for="recommendation">Recommendation:</label>
+                    <textarea id="recommendation" name="recommendation" rows="4" required placeholder="Enter your recommendation"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        
+        <button id="homeBtn" class="home-button">
+            <img id="arrow" src="arrow.svg">
+        </button>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
